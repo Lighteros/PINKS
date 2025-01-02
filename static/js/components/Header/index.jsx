@@ -121,8 +121,8 @@ function Header({ scrollToComponent, refs }) {
               DOC
             </div>
           )}
-          <div className="right-btn" onClick={() => window.open('https://app.starcoin.one/#/pages/sign-up', '_target')}>
-            Login/Register
+          <div className="right-btn" onClick={() => window.open('https://hera-pinks.vercel.app/', '_target')}>
+          APP
           </div>
           {isMobile && (
             <MobileMenu isOpen={isMenuOpen} onClick={toggleMobileMenu} />
