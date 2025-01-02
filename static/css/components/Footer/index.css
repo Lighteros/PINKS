@@ -1,0 +1,72 @@
+.footer {
+  z-index: 10;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f0fd;
+  box-sizing: border-box;
+  padding: 8px 140px;
+  transition: height 0.3s;
+}
+
+.privacy-desc-wrap {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.privacy-btn {
+  margin-left: 20px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.foot-right-wrap {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+}
+
+.icon-share {
+  width: 70px;
+  height: 70px;
+}
+
+.svg_share {
+  fill: black;
+  cursor: pointer;
+}
+
+svg:hover .svg_share {
+  fill: #6524f1;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 54px;
+    padding: 12px 16px;
+  }
+
+  .icon-share {
+    width: 40px;
+    height: 40px;
+  }
+
+  .privacy-desc-wrap {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    max-width: 150px;
+  }
+}

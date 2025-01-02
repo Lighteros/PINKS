@@ -1,0 +1,54 @@
+var _style, _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgArrowDown(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 40,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _style || (_style = /*#__PURE__*/React.createElement("style", null, "\n        @keyframes arrowAnimation {\n            0% {\n                transform: translateY(0) scaleY(1);\n            }\n            50% {\n                transform: translateY(8px) scaleY(0.8);\n            }\n            100% {\n                transform: translateY(0) scaleY(1);\n            }\n        }\n        .animatedPath {\n            animation: arrowAnimation 1.5s ease-in-out infinite;\n        }\n    ")), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Group_1533210358"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group_1533210357"
+  }, /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle_34627413",
+    x: 0.5,
+    y: 0.5,
+    width: 39,
+    height: 39,
+    stroke: "white",
+    strokeOpacity: 0.1
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Subtract",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M4 0H1H0V1V4H1V1H4V0ZM36 1V0H39H40V1V4H39V1H36ZM36 39H39V36H40V39V40H39H36V39ZM1 36V39H4V40H1H0V39V36H1Z",
+    fill: "white"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_1533210311"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Vector_5681",
+    d: "M15 23L20 28L25 23",
+    stroke: "white",
+    className: "animatedPath"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_5680",
+    d: "M20 10L20 28",
+    stroke: "white",
+    className: "animatedPath"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgArrowDown);
+export default __webpack_public_path__ + "static/media/arrow-down.b054a16f41cb54d01d2560a63dc8c8dc.svg";
+export { ForwardRef as ReactComponent };

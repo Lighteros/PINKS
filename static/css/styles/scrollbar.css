@@ -1,0 +1,36 @@
+
+
+/* 滚动条整体部分 */
+::-webkit-scrollbar {
+  width: 8px; /* 对于垂直滚动条，设置宽度 */
+  height: 8px; /* 对于水平滚动条，设置高度 */
+  margin-left: -8px;
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: #eee; /* 轨道颜色 */
+  border-radius: 5px; /* 轨道圆角 */
+}
+
+/* 滚动条手柄 */
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey; /* 手柄颜色 */
+  border-radius: 10px; /* 手柄圆角 */
+  border: 1px solid darkgrey; /* 手柄边框 */
+}
+
+/* 滚动条手柄悬停时的样式 */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey; /* 手柄悬停颜色 */
+}
+
+
+
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    
+}

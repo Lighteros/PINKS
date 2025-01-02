@@ -1,0 +1,56 @@
+.menu-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 32px;
+}
+
+.menu {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.menu.active {
+  color: #fff;
+}
+
+.menu:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 880px) {
+  .menu-box {
+    gap: 16px;
+  }
+
+  .menu {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .menu-box {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+  }
+  .menu {
+    font-size: 14px;
+    padding: 16px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: none;
+    text-align: left;
+  }
+}

@@ -1,0 +1,216 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgPower3(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 207,
+    height: 159,
+    viewBox: "0 0 207 159",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Group 1430103782"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group 13"
+  }, /*#__PURE__*/React.createElement("ellipse", {
+    id: "Ellipse 2",
+    cx: 83.018,
+    cy: 130.717,
+    rx: 63.2123,
+    ry: 22.5443,
+    fill: "url(#paint0_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group 1430103773"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Vector",
+    d: "M148.259 126.474C145.436 114.011 128.493 98.9834 105.12 89.5719C76.1852 77.9212 48.3798 79.2975 43.0073 92.6401C37.6348 105.983 56.7279 126.243 85.6622 137.894C114.597 149.545 141.359 148.212 147.439 135.551L147.476 135.566L150.732 127.481L148.255 126.483L148.259 126.474Z",
+    fill: "url(#paint1_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_2",
+    d: "M58.2382 82.5747C54.3801 83.3371 51.0699 84.5739 48.4634 86.2814L45.9675 85.2765L42.6278 93.5705L42.6753 93.5896C38.8611 105.828 54.4594 123.347 78.9049 134.944L94.1627 97.0511L58.2344 82.5842L58.2382 82.5747Z",
+    fill: "url(#paint2_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_3",
+    d: "M88.5165 130.796C117.447 142.445 145.256 141.071 150.629 127.727C156.002 114.384 136.904 94.1228 107.974 82.4736C79.0431 70.8244 51.2345 72.198 45.8615 85.5418C40.4886 98.8855 59.5858 119.146 88.5165 130.796Z",
+    fill: "url(#paint3_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "Intersect"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M130.278 94.3786C124.278 95.9687 117.737 97.1305 110.856 97.7482C80.9507 100.433 55.5303 91.8635 52.5291 78.4368C63.6416 72.2297 85.4715 73.4099 107.981 82.4734C116.356 85.8457 123.907 89.9397 130.278 94.3786Z",
+    fill: "url(#paint4_linear_440_4376)",
+    fillOpacity: 0.6
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M110.856 97.7482L110.89 98.1277L110.856 97.7482ZM130.278 94.3786L130.376 94.7468L131.171 94.5361L130.496 94.066L130.278 94.3786ZM52.5291 78.4368L52.3433 78.1042L52.0953 78.2427L52.1573 78.5199L52.5291 78.4368ZM110.89 98.1277C117.792 97.5081 124.354 96.3427 130.376 94.7468L130.181 94.0103C124.202 95.5947 117.682 96.7529 110.822 97.3688L110.89 98.1277ZM52.1573 78.5199C53.7041 85.4398 60.9855 91.001 71.4832 94.4958C82.0108 98.0006 95.8963 99.4738 110.89 98.1277L110.822 97.3688C95.9103 98.7074 82.133 97.2382 71.7239 93.7728C61.2848 90.2975 54.3554 84.8605 52.9009 78.3537L52.1573 78.5199ZM108.123 82.12C96.8358 77.5751 85.7118 75.0036 76.0068 74.3485C66.3115 73.694 57.9909 74.9496 52.3433 78.1042L52.7149 78.7695C58.1798 75.7169 66.3304 74.459 75.9554 75.1087C85.5707 75.7578 96.6162 78.3081 107.838 82.8268L108.123 82.12ZM130.496 94.066C124.099 89.6096 116.523 85.5023 108.123 82.12L107.838 82.8268C116.188 86.1891 123.714 90.2697 130.061 94.6912L130.496 94.066Z",
+    fill: "#B370DA"
+  }))), /*#__PURE__*/React.createElement("g", {
+    id: "Subtract"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M92.7682 120.494C143.113 133.584 188.867 126.301 194.962 104.227C201.057 82.153 165.186 53.6473 114.842 40.5575C64.497 27.4678 18.7433 34.7507 12.6479 56.8245C6.55247 78.8983 42.4236 107.404 92.7682 120.494ZM95.2942 112.132C142.341 124.365 184.845 118.472 190.23 98.9677C195.615 79.4638 161.842 53.7356 114.796 41.5022C67.7493 29.2687 25.245 35.1625 19.8598 54.6664C14.4745 74.1703 48.2477 99.8985 95.2942 112.132Z",
+    fill: "url(#paint5_linear_440_4376)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M194.962 104.227L195.333 104.316L194.962 104.227ZM114.842 40.5575L114.95 40.1921L114.842 40.5575ZM12.6479 56.8245L12.2773 56.7355L12.6479 56.8245ZM190.23 98.9677L190.601 99.0567L190.23 98.9677ZM95.2942 112.132L95.1859 112.497L95.2942 112.132ZM114.796 41.5022L114.904 41.1368L114.796 41.5022ZM19.8598 54.6664L20.2303 54.7554L19.8598 54.6664ZM194.591 104.138C193.101 109.535 189.181 114.056 183.308 117.601C177.433 121.149 169.623 123.707 160.408 125.174C141.98 128.107 118.01 126.663 92.8765 120.128L92.6599 120.859C117.871 127.414 141.951 128.874 160.509 125.919C169.788 124.443 177.705 121.859 183.696 118.242C189.69 114.623 193.775 109.956 195.333 104.316L194.591 104.138ZM114.733 40.9229C139.867 47.4577 161.37 57.8368 175.82 69.3197C183.045 75.0615 188.493 81.0681 191.755 86.994C195.016 92.9183 196.082 98.7393 194.591 104.138L195.333 104.316C196.89 98.6773 195.757 92.6575 192.434 86.6196C189.111 80.5834 183.587 74.5067 176.314 68.7266C161.766 57.1658 140.161 46.7471 114.95 40.1921L114.733 40.9229ZM13.0185 56.9135C14.5088 51.5164 18.429 46.9958 24.3015 43.45C30.1768 39.9026 37.9871 37.3444 47.2019 35.8776C65.6303 32.9442 89.5997 34.3881 114.733 40.9229L114.95 40.1921C89.7389 33.6372 65.6592 32.1777 47.1008 35.1318C37.8221 36.6088 29.9045 39.192 23.9134 42.8093C17.9195 46.4284 13.8347 51.0958 12.2773 56.7355L13.0185 56.9135ZM92.8765 120.128C67.7431 113.594 46.2396 103.215 31.7898 91.7316C24.5644 85.9898 19.1166 79.9832 15.8546 74.0572C12.5935 68.133 11.5277 62.312 13.0185 56.9135L12.2773 56.7355C10.7203 62.374 11.8527 68.3938 15.1764 74.4317C18.4991 80.4679 24.0227 86.5446 31.2963 92.3247C45.8443 103.886 67.4487 114.304 92.6599 120.859L92.8765 120.128ZM189.86 98.8788C188.549 103.626 184.973 107.577 179.556 110.647C174.137 113.718 166.902 115.89 158.342 117.077C141.225 119.451 118.889 117.874 95.4025 111.767L95.1859 112.497C118.745 118.624 141.186 120.216 158.428 117.825C167.048 116.63 174.389 114.436 179.925 111.299C185.463 108.161 189.219 104.062 190.601 99.0567L189.86 98.8788ZM114.688 41.8676C138.174 47.9748 158.331 57.4468 171.934 67.8097C178.736 72.9917 183.885 78.385 186.997 83.6771C190.109 88.9682 191.171 94.13 189.86 98.8788L190.601 99.0567C191.982 94.0536 190.842 88.6854 187.665 83.2847C184.49 77.885 179.264 72.4247 172.416 67.2074C158.717 56.7718 138.464 47.263 114.904 41.1368L114.688 41.8676ZM20.2303 54.7554C21.5411 50.0082 25.1174 46.0567 30.534 42.9869C35.9528 39.9158 43.1877 37.7437 51.7475 36.5568C68.8652 34.1832 91.2006 35.7603 114.688 41.8676L114.904 41.1368C91.3445 35.0106 68.9045 33.4178 51.6621 35.8087C43.0418 37.0041 35.7005 39.1978 30.165 42.335C24.6272 45.4735 20.871 49.5726 19.4892 54.5774L20.2303 54.7554ZM95.4025 111.767C71.9158 105.659 51.7591 96.1874 38.1559 85.8245C31.3536 80.6425 26.205 75.2492 23.0926 69.9571C19.9808 64.666 18.9192 59.5042 20.2303 54.7554L19.4892 54.5774C18.1077 59.5806 19.2483 64.9488 22.4246 70.3495C25.6003 75.7492 30.8256 81.2095 37.6743 86.4268C51.3729 96.8623 71.6261 106.371 95.1859 112.497L95.4025 111.767Z",
+    fill: "#B370DA"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group 1430103771"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Vector_4",
+    d: "M149.139 25.1959C138.146 18.6818 115.585 20.6626 92.6855 31.1741C64.3374 44.1864 46.2285 65.3311 52.2289 78.4034C58.2294 91.4757 86.0687 91.5293 114.417 78.517C142.765 65.5047 160.188 45.1473 155.169 32.0299L155.206 32.0128L151.57 24.0914L149.144 25.2053L149.139 25.1959Z",
+    fill: "url(#paint6_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_5",
+    d: "M55.3836 60.4179C53.286 63.7446 51.9096 66.9992 51.3587 70.0661L48.9135 71.1886L52.6435 79.3146L52.69 79.2933C58.9594 90.4748 82.4053 91.183 107.629 81.3945L90.5882 44.2696L55.3879 60.4272L55.3836 60.4179Z",
+    fill: "url(#paint7_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_6",
+    d: "M111.221 71.562C139.565 58.5513 157.678 37.406 151.677 24.3326C145.676 11.2592 117.834 11.2084 89.4895 24.219C61.145 37.2297 43.0319 58.375 49.0329 71.4484C55.0338 84.5218 82.8763 84.5726 111.221 71.562Z",
+    fill: "url(#paint8_linear_440_4376)",
+    fillOpacity: 0.6,
+    stroke: "#B370DA",
+    strokeWidth: 0.761986
+  })))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_440_4376",
+    x1: 68.6065,
+    y1: 113.747,
+    x2: 72.2989,
+    y2: 156.708,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_440_4376",
+    x1: 90.771,
+    y1: 90.7379,
+    x2: 77.4157,
+    y2: 138.604,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_440_4376",
+    x1: 64.3115,
+    y1: 90.4665,
+    x2: 57.2424,
+    y2: 128.264,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint3_linear_440_4376",
+    x1: 93.6253,
+    y1: 83.6396,
+    x2: 80.27,
+    y2: 131.505,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint4_linear_440_4376",
+    x1: 85.6914,
+    y1: 76.7661,
+    x2: 78.5949,
+    y2: 99.1298,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint5_linear_440_4376",
+    x1: 115.184,
+    y1: 28.2781,
+    x2: 84.5289,
+    y2: 147.945,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A64CAC"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.34,
+    stopColor: "#F8F6FC"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.765,
+    stopColor: "#884CDC"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint6_linear_440_4376",
+    x1: 83.6718,
+    y1: 42.3987,
+    x2: 109.265,
+    y2: 84.9954,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint7_linear_440_4376",
+    x1: 65.2903,
+    y1: 61.4295,
+    x2: 87.8897,
+    y2: 92.5405,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint8_linear_440_4376",
+    x1: 80.4757,
+    y1: 35.4437,
+    x2: 106.069,
+    y2: 78.0404,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A42FFF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#210B3B"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgPower3);
+export default __webpack_public_path__ + "static/media/power-3.2a1720dc635cba9f29802c51f53b73c6.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  background-color: #0e0317;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.app-mobile {
+  background-image: url("./assets/images/bottom-bg-mb.png");
+  background-position: center calc(100% - 53px);
+}
+
+.app-pc {
+  background-image: url("./assets/images/bottom-bg-pc.png");
+  background-position: center calc(100% - 89px);
+}

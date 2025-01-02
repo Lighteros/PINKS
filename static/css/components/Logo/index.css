@@ -1,0 +1,39 @@
+.logo-wrap {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.name {
+  color: #000;
+  font-size: 26.748px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo-wrap {
+    gap: 6.36px;
+  }
+
+  .logo {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .name {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

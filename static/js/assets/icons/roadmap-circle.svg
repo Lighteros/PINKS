@@ -1,0 +1,35 @@
+var _circle, _circle2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgRoadmapCircle(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 15,
+    height: 15,
+    viewBox: "0 0 15 15",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    opacity: 0.5,
+    cx: 7.04,
+    cy: 7.04,
+    r: 7.04,
+    fill: "#9F53FF"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    cx: 7.04009,
+    cy: 7.03997,
+    r: 3.2,
+    fill: "#9F53FF"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgRoadmapCircle);
+export default __webpack_public_path__ + "static/media/roadmap-circle.e872ab92e0b99ac318255dee95e40dc7.svg";
+export { ForwardRef as ReactComponent };

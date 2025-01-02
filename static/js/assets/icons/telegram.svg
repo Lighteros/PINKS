@@ -1,0 +1,31 @@
+var _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgTelegram(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 87,
+    height: 87,
+    viewBox: "0 0 87 87",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "telegram"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "telegram_2",
+    className: "svg_share",
+    d: "M22.4698 42.4124C34.0662 37.36 41.7989 34.0292 45.668 32.4199C56.715 27.8251 59.0105 27.0269 60.5067 27.0003C60.8358 26.9947 61.5715 27.0763 62.0481 27.463C62.4506 27.7896 62.5613 28.2307 62.6143 28.5403C62.6673 28.8499 62.7332 29.5552 62.6808 30.1063C62.0821 36.3963 59.4918 51.6604 58.174 58.7053C57.6164 61.6863 56.5184 62.6858 55.4555 62.7836C53.1454 62.9962 51.3913 61.257 49.1539 59.7903C45.6528 57.4953 43.675 56.0667 40.2766 53.8272C36.3491 51.2391 38.8951 49.8166 41.1334 47.4919C41.7191 46.8835 51.8972 37.6257 52.0942 36.7859C52.1189 36.6809 52.1417 36.2894 51.9091 36.0826C51.6765 35.8759 51.3332 35.9466 51.0855 36.0028C50.7344 36.0825 45.1414 39.7793 34.3065 47.0931C32.7189 48.1833 31.281 48.7144 29.9926 48.6866C28.5723 48.6559 25.8402 47.8835 23.8091 47.2233C21.318 46.4135 19.3381 45.9854 19.5105 44.6101C19.6003 43.8938 20.5867 43.1612 22.4698 42.4124Z",
+    fill: "black"
+  }))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgTelegram);
+export default __webpack_public_path__ + "static/media/telegram.4f82fbff459b541c225833b912f46048.svg";
+export { ForwardRef as ReactComponent };

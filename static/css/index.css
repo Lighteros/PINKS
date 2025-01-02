@@ -1,0 +1,60 @@
+@import url("./styles/scrollbar.css");
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  color: #000000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 88px 16px 69px 16px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
