@@ -37,11 +37,11 @@ function Footer() {
         
         <Twitter
           className="icon-share"
-          onClick={() => redirectToExternalLink('https://x.com/')}
+          onClick={() => redirectToExternalLink('https://x.com/HeraAI_ETH')}
         />
         <Telegram
           className="icon-share"
-          onClick={() => redirectToExternalLink('https://t.me/')}
+          onClick={() => redirectToExternalLink('https://t.me/HeraAI_ETH')}
         />
       </div>
     </div>

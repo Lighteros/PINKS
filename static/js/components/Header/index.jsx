@@ -121,7 +121,7 @@ function Header({ scrollToComponent, refs }) {
               DOC
             </div>
           )}
-          <div className="right-btn" onClick={() => window.open('https://hera-pinks.vercel.app/', '_target')}>
+          <div className="right-btn" onClick={() => window.open('https://app.heraai.org', '_target')}>
           APP
           </div>
           {isMobile && (

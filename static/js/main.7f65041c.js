@@ -7868,11 +7868,11 @@
                         className: "right-menus-wrap",
                         children: [!v && (0, Jt.jsx)("div", {
                             className: "right-btn",
-                            onClick: () => window.open("https://oliver-4.gitbook.io/untitled", "_target"),
+                            onClick: () => window.open("https://docs.heraai.org", "_target"),
                             children: "DOC"
                         }), (0, Jt.jsx)("div", {
                             className: "right-btn",
-                            onClick: () => window.open("https://hera-pinks.vercel.app/", "_target"),
+                            onClick: () => window.open("https://app.heraai.org", "_target"),
                             children: "APP"
                         }), v && (0, Jt.jsx)(qt, {
                             isOpen: S,
@@ -9918,10 +9918,10 @@
                     className: "footer-right-wrap",
                     children: [ (0, Jt.jsx)(jr, {
                         className: "icon-share",
-                        onClick: () => r("https://x.com/")
+                        onClick: () => r("https://x.com/HeraAI_ETH")
                     }), (0, Jt.jsx)(Ar, {
                         className: "icon-share",
-                        onClick: () => r("https://t.me/")
+                        onClick: () => r("https://t.me/HeraAI_ETH")
                     })]
                 })]
             })
